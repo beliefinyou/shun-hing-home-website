@@ -3,6 +3,8 @@ import type { MetadataRoute } from "next";
 import { siteConfig } from "@/data/site";
 import { visibleServices } from "@/data/services";
 
+export const dynamic = "force-static";
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = siteConfig.siteUrl.replace(/\/$/, "");
   const currentDate = new Date();

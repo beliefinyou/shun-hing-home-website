@@ -187,13 +187,15 @@ partial-renovation-v2.jpg
 
 ## 部署
 
-### Vercel
+### GitHub Pages
 
-1. 將專案推送至 Git repository。
-2. 在 Vercel 匯入專案。
-3. 加入 `.env.example` 對應的環境變數。
-4. Build Command 使用 `npm run build`。
-5. 完成後檢查 `/robots.txt`、`/sitemap.xml` 及所有聯絡 CTA。
+推送到 `main` 分支後，GitHub Actions 會自動建置靜態網站並發佈至：
+
+```text
+https://beliefinyou.github.io/shun-hing-home-website/
+```
+
+部署工作流程位於 `.github/workflows/deploy-pages.yml`。Repository 必須為公開，或在 GitHub 方案中允許私人儲存庫使用 Pages。
 
 ### 一般 Node.js 主機
 
