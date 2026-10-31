@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" fill="#373737"/>
+  <rect x="44" y="13" width="1.5" height="38" fill="#C6AE90" opacity=".8"/>
+  <text x="32" y="41" text-anchor="middle" fill="#F5F2EA" font-family="serif" font-size="29" font-weight="600">順</text>
+</svg>

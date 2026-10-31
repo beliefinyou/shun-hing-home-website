@@ -1,0 +1,13 @@
+:root {
+  --paper: #f5f2ea;
+  --ink: #373737;
+  --wood: #c6ae90;
+  --sand: #ebe6dc;
+  --muted: #77736d;
+  --line: #ddd9d0;
+  --font-display: "Noto Serif TC", "Source Han Serif TC", "Songti TC",
+    "PMingLiU", serif;
+  --font-body: "Noto Sans TC", "Source Han Sans TC", "PingFang HK",
+    "Microsoft JhengHei", sans-serif;
+  --header-height: 5rem;
+}
