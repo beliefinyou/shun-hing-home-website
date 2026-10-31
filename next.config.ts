@@ -8,8 +8,9 @@ const nextConfig: NextConfig = {
   trailingSlash: isGitHubPages,
   poweredByHeader: false,
   images: {
+    loader: "custom",
+    loaderFile: "./src/lib/image-loader.ts",
     formats: ["image/avif", "image/webp"],
-    unoptimized: isGitHubPages,
   },
   ...(!isGitHubPages
     ? {

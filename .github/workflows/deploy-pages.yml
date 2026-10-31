@@ -40,6 +40,7 @@ jobs:
         run: pnpm build
         env:
           NEXT_PUBLIC_SITE_URL: https://beliefinyou.github.io/shun-hing-home-website
+          NEXT_PUBLIC_BASE_PATH: /shun-hing-home-website
 
       - name: Add GitHub Pages marker
         run: touch out/.nojekyll
